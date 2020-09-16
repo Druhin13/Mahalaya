@@ -10,3 +10,19 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.title{
+	position: absolute;
+	bottom: 0;
+	margin-left: 10vw;
+	margin-bottom: 10vh;
+	height: 15vh;
+}
+
+.play{
+	position: absolute;
+	right: 0;
+	height: 5vh;
+	margin-right: 6vw;
+	margin-top: 5vh;
+}
