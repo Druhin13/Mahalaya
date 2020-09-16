@@ -11,14 +11,17 @@
 
 	<img class="title" src="assets/mahalaya.svg">
 
-	<img class="play" src="assets/play.svg">
-	<!--	<img src="assets/play.svg">-->
+	<img class="play" id="play" src="assets/play.svg" onclick="togglePlay()">
+	<img class="pause" id="pause" src="assets/pause.svg" onclick="togglePlay()">
 
 
-	<script>
-		var audio = new Audio('assets/mahalaya.mp3');
-		audio.play();
-	</script>
+	<audio id="myAudio" src="https://www.mboxdrive.com/mahalaya.mp3" preload="auto">
+	</audio>
+	
+	
+<!--<a onClick="togglePlay()">Click here to hear.</a>-->
+
+	<script src="app.js"></script>
 
 
 </body>

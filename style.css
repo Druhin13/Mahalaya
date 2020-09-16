@@ -3,15 +3,15 @@
 	margin: 0;
 }
 
-html { 
-  background: url(assets/sunrise.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+html {
+	background: url(assets/sunrise.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-.title{
+.title {
 	position: absolute;
 	bottom: 0;
 	margin-left: 10vw;
@@ -19,10 +19,19 @@ html {
 	height: 15vh;
 }
 
-.play{
+.play {
 	position: absolute;
 	right: 0;
 	height: 5vh;
 	margin-right: 6vw;
 	margin-top: 5vh;
+}
+
+.pause {
+	position: absolute;
+	right: 0;
+	height: 5vh;
+	margin-right: 6vw;
+	margin-top: 5vh;
+	display: none;
 }
